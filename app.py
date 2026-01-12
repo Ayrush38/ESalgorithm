@@ -25,7 +25,7 @@ MAX_DAILY_HOURS = 2.5
 # ==================================================
 def load_and_aggregate():
     base_dir = Path(__file__).resolve().parent
-    csv_path = base_dir / "student_schedule.csv"
+    csv_path = base_dir / "student_schedule (1).csv"
 
     if not csv_path.exists():
         st.error("❌ student_schedule.csv not found in project folder")
